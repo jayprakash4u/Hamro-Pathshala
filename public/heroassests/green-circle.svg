@@ -1,0 +1,102 @@
+<!-- green-circle.svg -->
+<svg
+  width="600"
+  height="600"
+  viewBox="0 0 600 600"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <!-- Main green gradient -->
+    <linearGradient
+      id="mainGradient"
+      x1="120"
+      y1="80"
+      x2="480"
+      y2="520"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0%" stop-color="#8DD99B"/>
+      <stop offset="45%" stop-color="#55BF76"/>
+      <stop offset="100%" stop-color="#159447"/>
+    </linearGradient>
+
+    <!-- Light transparent circle -->
+    <linearGradient
+      id="softGradient"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="1"
+    >
+      <stop offset="0%" stop-color="#DFF5E7" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#7CCF98" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <!-- Dark small circle -->
+    <linearGradient
+      id="darkGradient"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="1"
+    >
+      <stop offset="0%" stop-color="#39B66B"/>
+      <stop offset="100%" stop-color="#08753C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Soft circle behind -->
+  <circle
+    cx="235"
+    cy="300"
+    r="205"
+    fill="url(#softGradient)"
+    opacity="0.55"
+  />
+
+  <!-- Main circle -->
+  <circle
+    cx="350"
+    cy="290"
+    r="225"
+    fill="url(#mainGradient)"
+    opacity="0.88"
+  />
+
+  <!-- Large translucent lower circle -->
+  <circle
+    cx="365"
+    cy="390"
+    r="170"
+    fill="#9BE2AE"
+    opacity="0.25"
+  />
+
+  <!-- Top floating bubble -->
+  <circle
+    cx="265"
+    cy="72"
+    r="22"
+    fill="url(#darkGradient)"
+    opacity="0.85"
+  />
+
+  <!-- Left floating bubble -->
+  <circle
+    cx="125"
+    cy="360"
+    r="32"
+    fill="#31AF67"
+    opacity="0.22"
+  />
+
+  <!-- Bottom right bubble -->
+  <circle
+    cx="520"
+    cy="445"
+    r="25"
+    fill="#159447"
+    opacity="0.25"
+  />
+</svg>

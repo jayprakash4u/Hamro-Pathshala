@@ -1,0 +1,57 @@
+<!-- dots.svg -->
+<svg
+    width="120"
+    height="120"
+    viewBox="0 0 120 120"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <defs>
+        <linearGradient
+            id="dotGradient"
+            x1="0"
+            y1="0"
+            x2="120"
+            y2="120"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop offset="0%" stop-color="#159447"/>
+            <stop offset="100%" stop-color="#39B972"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Row 1 -->
+    <circle cx="12" cy="12" r="4" fill="url(#dotGradient)" opacity="0.70"/>
+    <circle cx="36" cy="12" r="4" fill="url(#dotGradient)" opacity="0.78"/>
+    <circle cx="60" cy="12" r="4" fill="url(#dotGradient)" opacity="0.85"/>
+    <circle cx="84" cy="12" r="4" fill="url(#dotGradient)" opacity="0.78"/>
+    <circle cx="108" cy="12" r="4" fill="url(#dotGradient)" opacity="0.65"/>
+
+    <!-- Row 2 -->
+    <circle cx="12" cy="36" r="4" fill="url(#dotGradient)" opacity="0.78"/>
+    <circle cx="36" cy="36" r="4" fill="url(#dotGradient)" opacity="0.88"/>
+    <circle cx="60" cy="36" r="4" fill="url(#dotGradient)" opacity="0.95"/>
+    <circle cx="84" cy="36" r="4" fill="url(#dotGradient)" opacity="0.88"/>
+    <circle cx="108" cy="36" r="4" fill="url(#dotGradient)" opacity="0.72"/>
+
+    <!-- Row 3 -->
+    <circle cx="12" cy="60" r="4" fill="url(#dotGradient)" opacity="0.85"/>
+    <circle cx="36" cy="60" r="4" fill="url(#dotGradient)" opacity="0.95"/>
+    <circle cx="60" cy="60" r="4" fill="url(#dotGradient)"/>
+    <circle cx="84" cy="60" r="4" fill="url(#dotGradient)" opacity="0.95"/>
+    <circle cx="108" cy="60" r="4" fill="url(#dotGradient)" opacity="0.80"/>
+
+    <!-- Row 4 -->
+    <circle cx="12" cy="84" r="4" fill="url(#dotGradient)" opacity="0.75"/>
+    <circle cx="36" cy="84" r="4" fill="url(#dotGradient)" opacity="0.86"/>
+    <circle cx="60" cy="84" r="4" fill="url(#dotGradient)" opacity="0.92"/>
+    <circle cx="84" cy="84" r="4" fill="url(#dotGradient)" opacity="0.86"/>
+    <circle cx="108" cy="84" r="4" fill="url(#dotGradient)" opacity="0.70"/>
+
+    <!-- Row 5 -->
+    <circle cx="12" cy="108" r="4" fill="url(#dotGradient)" opacity="0.60"/>
+    <circle cx="36" cy="108" r="4" fill="url(#dotGradient)" opacity="0.70"/>
+    <circle cx="60" cy="108" r="4" fill="url(#dotGradient)" opacity="0.78"/>
+    <circle cx="84" cy="108" r="4" fill="url(#dotGradient)" opacity="0.70"/>
+    <circle cx="108" cy="108" r="4" fill="url(#dotGradient)" opacity="0.55"/>
+</svg>

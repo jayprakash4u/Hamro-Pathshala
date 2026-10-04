@@ -363,20 +363,149 @@
     outline-offset: 2px;
   }
 
-  /* Never animate for users who ask for reduced motion. */
-  @media (prefers-reduced-motion: reduce) {
-    html {
-      scroll-behavior: auto;
-    }
+}
 
-    *,
-    *::before,
-    *::after {
-      animation-duration: 0.01ms !important;
-      animation-iteration-count: 1 !important;
-      transition-duration: 0.01ms !important;
-    }
+/* =========================================================================
+   HARDWARE-ACCELERATED FLOATING ANIMATIONS (WORKS ON ALL COMPUTERS & IPS)
+   ========================================================================= */
+@keyframes float-bot {
+  0%, 100% {
+    transform: translateY(0px);
   }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes float-student {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes float-dash {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes float-card-1 {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes float-card-2 {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-9px);
+  }
+}
+
+@keyframes float-card-3 {
+  0%, 100% {
+    transform: translateY(0px) rotate(3deg);
+  }
+  50% {
+    transform: translateY(-14px) rotate(4deg);
+  }
+}
+
+@keyframes float-leaf-1 {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2deg);
+  }
+}
+
+@keyframes float-leaf-2 {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-7px) rotate(-2deg);
+  }
+}
+
+@keyframes float-dots {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes float-plane {
+  0%, 100% {
+    transform: translateY(0px) translateX(0px);
+  }
+  50% {
+    transform: translateY(-8px) translateX(4px);
+  }
+}
+
+.animate-float-bot {
+  animation: float-bot 3.5s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-float-student {
+  animation: float-student 8s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-float-dash {
+  animation: float-dash 6s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-float-card-1 {
+  animation: float-card-1 4s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-float-card-2 {
+  animation: float-card-2 5s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-float-card-3 {
+  animation: float-card-3 7s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-float-leaf-1 {
+  animation: float-leaf-1 8s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-float-leaf-2 {
+  animation: float-leaf-2 7.5s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-float-dots {
+  animation: float-dots 8s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-float-plane {
+  animation: float-plane 6.5s ease-in-out infinite;
+  will-change: transform;
 }
 
 /* =========================================================================

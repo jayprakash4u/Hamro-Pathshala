@@ -1,0 +1,53 @@
+<!-- grid.svg -->
+<svg
+width="600"
+height="600"
+viewBox="0 0 600 600"
+fill="none"
+xmlns="http://www.w3.org/2000/svg"
+>
+<defs>
+<!-- Main grid -->
+<pattern
+id="gridPattern"
+width="64"
+height="64"
+patternUnits="userSpaceOnUse"
+>
+<path
+d="M 64 0 L 0 0 0 64"
+fill="none"
+stroke="#CFE5DA"
+stroke-width="1"
+/>
+</pattern>
+<!-- Fade grid toward outer edges -->
+<radialGradient
+id="gridFade"
+cx="0"
+cy="0"
+r="1"
+gradientUnits="userSpaceOnUse"
+gradientTransform="translate(300 300) rotate(90) scale(300)"
+>
+<stop offset="0%" stop-color="white"/>
+<stop offset="65%" stop-color="white" stop-opacity="0.85"/>
+<stop offset="100%" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<mask id="fadeMask">
+<rect
+width="600"
+height="600"
+fill="url(#gridFade)"
+/>
+</mask>
+</defs>
+<!-- Transparent grid -->
+<rect
+width="600"
+height="600"
+fill="url(#gridPattern)"
+mask="url(#fadeMask)"
+opacity="0.75"
+/>
+</svg>

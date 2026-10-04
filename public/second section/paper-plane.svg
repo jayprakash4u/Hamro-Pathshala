@@ -1,0 +1,77 @@
+<!-- paper-plane.svg -->
+<svg
+width="140"
+height="120"
+viewBox="0 0 140 120"
+fill="none"
+xmlns="http://www.w3.org/2000/svg"
+>
+<defs>
+<linearGradient
+id="planeMain"
+x1="25"
+y1="25"
+x2="115"
+y2="95"
+gradientUnits="userSpaceOnUse"
+>
+<stop offset="0%" stop-color="#22B866"/>
+<stop offset="100%" stop-color="#078242"/>
+</linearGradient>
+<linearGradient
+id="planeDark"
+x1="65"
+y1="55"
+x2="110"
+y2="100"
+gradientUnits="userSpaceOnUse"
+>
+<stop offset="0%" stop-color="#078C49"/>
+<stop offset="100%" stop-color="#056A39"/>
+</linearGradient>
+</defs>
+<!-- Main upper wing -->
+<path
+d="
+M 13 48
+L 126 14
+L 91 104
+L 67 69
+Z
+"
+fill="url(#planeMain)"
+/>
+<!-- Left folded wing -->
+<path
+d="
+M 13 48
+L 67 69
+L 126 14
+L 48 57
+Z
+"
+fill="#159B52"
+/>
+<!-- Bottom folded section -->
+<path
+d="
+M 67 69
+L 91 104
+L 78 75
+L 126 14
+Z
+"
+fill="url(#planeDark)"
+/>
+<!-- Small inner fold -->
+<path
+d="
+M 67 69
+L 78 75
+L 91 104
+Z
+"
+fill="#075F36"
+opacity="0.65"
+/>
+</svg>

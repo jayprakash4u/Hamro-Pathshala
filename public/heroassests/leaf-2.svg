@@ -1,0 +1,230 @@
+<!-- leaf-2.svg -->
+<svg
+    width="190"
+    height="240"
+    viewBox="0 0 190 240"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <defs>
+
+        <!-- Left leaf -->
+        <linearGradient
+            id="leftLeaf"
+            x1="45"
+            y1="80"
+            x2="110"
+            y2="175"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop offset="0%" stop-color="#DDF5E5"/>
+            <stop offset="45%" stop-color="#82D7A4"/>
+            <stop offset="100%" stop-color="#169565"/>
+        </linearGradient>
+
+        <!-- Top leaf -->
+        <linearGradient
+            id="topLeaf"
+            x1="150"
+            y1="30"
+            x2="105"
+            y2="150"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop offset="0%" stop-color="#E8F8EC"/>
+            <stop offset="42%" stop-color="#A7E3BA"/>
+            <stop offset="100%" stop-color="#24A46D"/>
+        </linearGradient>
+
+        <!-- Right leaf -->
+        <linearGradient
+            id="rightLeaf"
+            x1="175"
+            y1="120"
+            x2="105"
+            y2="190"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop offset="0%" stop-color="#E3F6E8"/>
+            <stop offset="50%" stop-color="#9BDEB2"/>
+            <stop offset="100%" stop-color="#2DA875"/>
+        </linearGradient>
+
+        <!-- Small lower leaf -->
+        <linearGradient
+            id="smallLeaf"
+            x1="70"
+            y1="145"
+            x2="110"
+            y2="200"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop offset="0%" stop-color="#80D5A1"/>
+            <stop offset="100%" stop-color="#138B60"/>
+        </linearGradient>
+
+    </defs>
+
+
+    <!-- ====================================== -->
+    <!-- MAIN CURVED STEM -->
+    <!-- ====================================== -->
+
+    <path
+        d="
+        M 91 226
+        C 96 197,
+          104 170,
+          114 143
+        C 124 116,
+          136 88,
+          151 58
+        "
+        stroke="#239B6A"
+        stroke-width="3"
+        stroke-linecap="round"
+        fill="none"
+    />
+
+
+    <!-- ====================================== -->
+    <!-- LEFT LARGE LEAF -->
+    <!-- ====================================== -->
+
+    <path
+        d="
+        M 105 164
+        C 78 153,
+          55 134,
+          43 108
+        C 36 93,
+          34 77,
+          36 65
+
+        C 58 73,
+          78 88,
+          91 107
+
+        C 103 125,
+          107 145,
+          105 164
+        Z
+        "
+        fill="url(#leftLeaf)"
+    />
+
+
+    <!-- ====================================== -->
+    <!-- TOP LARGE LEAF -->
+    <!-- ====================================== -->
+
+    <path
+        d="
+        M 116 143
+        C 113 116,
+          119 90,
+          132 69
+
+        C 143 51,
+          158 39,
+          174 33
+
+        C 175 56,
+          170 79,
+          159 98
+
+        C 148 118,
+          133 134,
+          116 143
+        Z
+        "
+        fill="url(#topLeaf)"
+    />
+
+
+    <!-- ====================================== -->
+    <!-- RIGHT LEAF -->
+    <!-- ====================================== -->
+
+    <path
+        d="
+        M 107 180
+        C 124 158,
+          145 145,
+          171 143
+
+        C 168 163,
+          158 180,
+          143 190
+
+        C 130 198,
+          116 199,
+          103 196
+
+        C 103 190,
+          105 185,
+          107 180
+        Z
+        "
+        fill="url(#rightLeaf)"
+    />
+
+
+    <!-- ====================================== -->
+    <!-- SMALL LOWER LEFT LEAF -->
+    <!-- ====================================== -->
+
+    <path
+        d="
+        M 96 192
+        C 79 187,
+          65 177,
+          57 163
+
+        C 72 162,
+          85 166,
+          96 176
+
+        C 101 181,
+          103 187,
+          103 193
+
+        C 101 193,
+          99 193,
+          96 192
+        Z
+        "
+        fill="url(#smallLeaf)"
+        opacity="0.9"
+    />
+
+
+    <!-- ====================================== -->
+    <!-- SUBTLE LEAF VEINS -->
+    <!-- ====================================== -->
+
+    <path
+        d="M 101 157 C 82 130, 62 101, 42 73"
+        stroke="#FFFFFF"
+        stroke-width="1.2"
+        stroke-linecap="round"
+        opacity="0.30"
+    />
+
+    <path
+        d="M 119 136 C 136 104, 151 72, 170 40"
+        stroke="#FFFFFF"
+        stroke-width="1.2"
+        stroke-linecap="round"
+        opacity="0.32"
+    />
+
+    <path
+        d="M 111 187 C 131 170, 149 158, 166 149"
+        stroke="#FFFFFF"
+        stroke-width="1.1"
+        stroke-linecap="round"
+        opacity="0.27"
+    />
+
+</svg>

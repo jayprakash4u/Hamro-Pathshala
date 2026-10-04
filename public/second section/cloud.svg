@@ -1,0 +1,77 @@
+<!-- cloud.svg -->
+<svg
+width="48"
+height="48"
+viewBox="0 0 48 48"
+fill="none"
+xmlns="http://www.w3.org/2000/svg"
+>
+<defs>
+<linearGradient
+id="cloudGradient"
+x1="10"
+y1="10"
+x2="39"
+y2="39"
+gradientUnits="userSpaceOnUse"
+>
+<stop offset="0%" stop-color="#2BC36C"/>
+<stop offset="100%" stop-color="#078242"/>
+</linearGradient>
+</defs>
+<!-- Soft circular background -->
+<circle
+cx="24"
+cy="24"
+r="21"
+fill="#EAF7EF"
+/>
+<!-- Cloud -->
+<path
+d="
+M35.8 31.8
+H15.1
+C11.2 31.8
+8.5 29.2
+8.5 25.7
+C8.5 22.4
+10.9 19.8
+14.2 19.4
+C15.4 15.2
+19.2 12.2
+23.8 12.2
+C29.1 12.2
+33.4 16
+34.2 21
+C37.6 21.2
+40.2 23.5
+40.2 26.5
+C40.2 29.5
+38.3 31.8
+35.8 31.8
+Z
+"
+fill="url(#cloudGradient)"
+/>
+<!-- Small white cloud highlight -->
+<path
+d="
+M16.3 20.7
+C17.8 17.3
+20.5 15.6
+23.7 15.6
+"
+stroke="white"
+stroke-width="1.8"
+stroke-linecap="round"
+opacity="0.55"
+/>
+<!-- Secure check inside cloud -->
+<path
+d="M19.3 25.1L22.5 28.2L28.9 21.8"
+stroke="white"
+stroke-width="2.4"
+stroke-linecap="round"
+stroke-linejoin="round"
+/>
+</svg>

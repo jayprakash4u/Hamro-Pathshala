@@ -1,0 +1,87 @@
+<!-- bubble-large.svg -->
+<svg
+width="220"
+height="220"
+viewBox="0 0 220 220"
+fill="none"
+xmlns="http://www.w3.org/2000/svg"
+>
+<defs>
+<radialGradient
+id="bubbleGradient"
+cx="0"
+cy="0"
+r="1"
+gradientUnits="userSpaceOnUse"
+gradientTransform="translate(72 60) rotate(48) scale(175)"
+>
+<stop
+offset="0%"
+stop-color="#E9F8EF"
+stop-opacity="0.95"
+/>
+<stop
+offset="45%"
+stop-color="#BCE8CD"
+stop-opacity="0.70"
+/>
+<stop
+offset="78%"
+stop-color="#74CF98"
+stop-opacity="0.48"
+/>
+<stop
+offset="100%"
+stop-color="#36B56F"
+stop-opacity="0.28"
+/>
+</radialGradient>
+<linearGradient
+id="bubbleStroke"
+x1="30"
+y1="25"
+x2="190"
+y2="195"
+gradientUnits="userSpaceOnUse"
+>
+<stop
+offset="0%"
+stop-color="#DDF4E6"
+stop-opacity="0.8"
+/>
+<stop
+offset="100%"
+stop-color="#50BF80"
+stop-opacity="0.25"
+/>
+</linearGradient>
+</defs>
+<!-- Main bubble -->
+<circle
+cx="110"
+cy="110"
+r="96"
+fill="url(#bubbleGradient)"
+stroke="url(#bubbleStroke)"
+stroke-width="2"
+/>
+<!-- Soft highlight -->
+<ellipse
+cx="76"
+cy="66"
+rx="39"
+ry="27"
+transform="rotate(-35 76 66)"
+fill="#FFFFFF"
+opacity="0.24"
+/>
+<!-- Inner soft glow -->
+<circle
+cx="110"
+cy="110"
+r="77"
+stroke="#FFFFFF"
+stroke-width="1.5"
+opacity="0.12"
+/>
+</svg>

@@ -1,0 +1,136 @@
+<!-- leaf-1.svg -->
+<svg
+    width="180"
+    height="240"
+    viewBox="0 0 180 240"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <defs>
+        <!-- Upper leaf -->
+        <linearGradient
+            id="upperLeaf"
+            x1="35"
+            y1="35"
+            x2="130"
+            y2="135"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop offset="0%" stop-color="#38B889"/>
+            <stop offset="50%" stop-color="#168C68"/>
+            <stop offset="100%" stop-color="#07664F"/>
+        </linearGradient>
+
+        <!-- Lower leaf -->
+        <linearGradient
+            id="lowerLeaf"
+            x1="25"
+            y1="115"
+            x2="145"
+            y2="205"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop offset="0%" stop-color="#249F76"/>
+            <stop offset="55%" stop-color="#08765B"/>
+            <stop offset="100%" stop-color="#045543"/>
+        </linearGradient>
+    </defs>
+
+    <!-- ============================= -->
+    <!-- UPPER LEAF -->
+    <!-- ============================= -->
+
+    <path
+        d="
+        M 145 130
+        C 108 121,
+          68 100,
+          48 66
+        C 38 49,
+          34 31,
+          35 18
+        C 60 23,
+          90 36,
+          110 58
+        C 132 82,
+          141 108,
+          145 130
+        Z
+        "
+        fill="url(#upperLeaf)"
+    />
+
+    <!-- ============================= -->
+    <!-- LOWER LEAF -->
+    <!-- ============================= -->
+
+    <path
+        d="
+        M 148 207
+        C 119 203,
+          83 193,
+          58 174
+        C 39 160,
+          27 142,
+          23 122
+        C 50 119,
+          78 125,
+          101 139
+        C 128 155,
+          142 181,
+          148 207
+        Z
+        "
+        fill="url(#lowerLeaf)"
+    />
+
+    <!-- ============================= -->
+    <!-- CURVED STEM -->
+    <!-- ============================= -->
+
+    <path
+        d="
+        M 151 226
+        C 149 194,
+          145 164,
+          135 136
+        C 124 106,
+          103 77,
+          73 51
+        "
+        stroke="#08634D"
+        stroke-width="3"
+        stroke-linecap="round"
+        fill="none"
+    />
+
+    <!-- Very subtle upper highlight -->
+    <path
+        d="
+        M 137 124
+        C 112 101,
+          87 78,
+          57 46
+        "
+        stroke="#74CDB0"
+        stroke-width="1.2"
+        stroke-linecap="round"
+        opacity="0.20"
+        fill="none"
+    />
+
+    <!-- Very subtle lower highlight -->
+    <path
+        d="
+        M 142 198
+        C 109 173,
+          77 151,
+          35 130
+        "
+        stroke="#5FC3A3"
+        stroke-width="1.2"
+        stroke-linecap="round"
+        opacity="0.18"
+        fill="none"
+    />
+</svg>
